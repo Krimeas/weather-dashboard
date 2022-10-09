@@ -1,0 +1,61 @@
+
+
+li .bordercss {
+  background-color: grey;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 3px;
+  border: solid black;
+}
+
+.todaysCast {
+  border: solid black;
+}
+
+.forecastBox {
+  background-color: rgb(35, 52, 110);
+  text-align: left;
+  border: solid black;
+  color: white;
+
+}
+
+p {
+  font-size: .5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+#city {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+#today {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+#day1 {
+  font-size: .7rem;
+}
+
+#day2 {
+  font-size: .7rem;
+}
+
+#day3 {
+  font-size: .7rem;
+}
+
+#day4 {
+  font-size: .7rem;
+}
+
+#day5 {
+  font-size: .7rem;
+}
