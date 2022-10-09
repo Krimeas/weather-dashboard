@@ -25,8 +25,9 @@
     </nav>
   </header>
 
-  <main class="row col-12">
-    <section class="container col-sm-3 m-1">
+  <main class="row">
+    <!-- container for the left side search & storage list -->
+    <section class="container col-sm-2 m-1">
       <div class="column justify-content-left ">
         <div class="text-left pb-2 border-bottom">
           <h2>Search for a City:</h2>
@@ -34,8 +35,6 @@
             <div class="form-group row">
               <div class="col-12">
                 <input type="text" class="form-control" id="city-name" placeholder="City Name"/>
-
-                <!-- <p id="cityInput"></p> -->
               </div>
             </div>
             <button type="submit" class="btn btn-info col-12" id="subbtn">
@@ -49,9 +48,11 @@
         </div>
       </div>
     </section>
-    <section class="column container col-8 m-0">
+    <!-- runs the forecast populated section. -->
+    <section class="column container col-9 m-0 justify-content-right pl-1">
+      <!-- current forecast. -->
       <div>
-        <div class="container col-12 text-left todaysCast p-1">
+        <div class="container col-12 text-left todaysCast pl-0 justify-content-left">
           <p id="city"> <span id="today"></span></p>
           <p>Temp: </p>
           <p>Wind: </p>
@@ -59,12 +60,13 @@
         </div>
       </div>
 
-      <div class="row fiveDaysCast">
+      <!-- five day forecast -->
+      <div class="row fiveDaysCast pl-3">
         <h4>5-Day Forecast</h4>
       </div>
 
-      <div class="row justify-content-around col-12 text-left">
-        <div class="col-2 forecastBox text-left p-0">
+      <div class="row justify-content-between col-12 text-left m-0 p-0">
+        <div class="col-2 forecastBox text-left pl-0">
           <p id="day1"></p>
           <p id="temp">Temp: </p>
           <p>Wind: </p>
@@ -100,12 +102,8 @@
     </section>
   </main>
 
-  <footer>
-    
-  </footer>
-
+  <!-- Scripts fot JS, JQuery, & UI -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <!-- jQuery UI <script> tag -->
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="assets/script.js"></script>
 

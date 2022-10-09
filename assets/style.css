@@ -1,5 +1,5 @@
 
-
+/* runs styling for the previous search list */
 li .bordercss {
   background-color: grey;
   margin: 10px 0;
@@ -8,10 +8,12 @@ li .bordercss {
   border: solid black;
 }
 
+/* border only for current forecast */
 .todaysCast {
   border: solid black;
 }
 
+/* styling for the five days */
 .forecastBox {
   background-color: rgb(35, 52, 110);
   text-align: left;
@@ -20,42 +22,55 @@ li .bordercss {
 
 }
 
+/* styling for the five days */
 p {
-  font-size: .5rem;
+  font-size: .8rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
+/* for the search box */
 #city {
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
+/* for the current weather box */
 #today {
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
+/* for the next five days */
 #day1 {
-  font-size: .7rem;
+  font-size: 1.0rem;
 }
 
 #day2 {
-  font-size: .7rem;
+  font-size: 1.0rem;
 }
 
 #day3 {
-  font-size: .7rem;
+  font-size: 1.0rem;
 }
 
 #day4 {
-  font-size: .7rem;
+  font-size: 1.0rem;
 }
 
 #day5 {
-  font-size: .7rem;
+  font-size: 1.0rem;
+}
+
+@media (max-width: 840px) {
+  
+  main {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 }
